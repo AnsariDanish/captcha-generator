@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="captcha.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>Captcha in Javascript</header>
+        <div class="captcha-area">
+            <div class="captcha-img">
+                <img src="blur.jpg" alt="Blur image" class="image">
+                <span class="captcha"></span>
+            </div>
+            <button class="reload-btn"><i class="fas fa-redo-alt"></i></button>
+        </div>
+        <form action="#" class="input-area">
+            <input type="text" placeholder="Enter the captcha" required maxlength="6">
+            <button class="check-btn">Check</button>
+        </form>
+        <div class="status-txt">Captcha not matched. Please try again..!</div>
+    </div>
+
+<script src="captcha.js"></script>
+
+</body>
+</html>
